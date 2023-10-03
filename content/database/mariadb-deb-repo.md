@@ -18,8 +18,7 @@ Create a new file under `/etc/apt/sources.list.d/`, e.g. `mariadb.sources`. If y
 # https://mariadb.org/download/
 X-Repolib-Name: MariaDB
 Types: deb
-# deb.mariadb.org is a dynamic mirror if your preferred mirror goes offline.
-# See https://mariadb.org/mirrorbits/ for details.
+# deb.mariadb.org is a dynamic mirror if your preferred mirror goes offline. See https://mariadb.org/mirrorbits/ for details.
 # URIs: https://deb.mariadb.org/11.1/debian
 URIs: https://mirror.mva-n.net/mariadb/repo/11.1/debian
 Suites: bookworm
