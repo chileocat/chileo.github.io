@@ -6,9 +6,10 @@ draft: False
 
 Let us install the necessary Debian packages to make it an actual mail server.
 
-```
+```plain
 sudo apt update
-sudo apt install postfix postfix-mysql redis-server swaks dovecot-mysql dovecot-imapd dovecot-managesieved dovecot-lmtpd ca-certificates
+sudo apt install postfix postfix-mysql redis-server swaks dovecot-mysql dovecot-imapd \
+                 dovecot-managesieved dovecot-lmtpd ca-certificates
 ```
 
 For the moment, keep the default answers on postfix. We will reconfigure it later.

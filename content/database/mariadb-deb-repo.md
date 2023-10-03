@@ -7,13 +7,13 @@ draft: False
 Install MariaDB from the offical repository.
 
 ### MariaDB Repository
-```
+```plain
 sudo apt install apt-transport-https curl
 sudo curl -o /etc/apt/keyrings/mariadb-keyring.pgp 'https://mariadb.org/mariadb_release_signing_key.pgp'
 ```
 
 Create a new file under `/etc/apt/sources.list.d/`, e.g. `mariadb.sources`. If you need another mirror, check out https://mariadb.org/download/?t=repo-config.
-```
+```plain
 # MariaDB 11.1 repository list - created 2023-09-12 12:07 UTC
 # https://mariadb.org/download/
 X-Repolib-Name: MariaDB

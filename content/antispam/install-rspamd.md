@@ -7,7 +7,7 @@ draft: False
 Install Rspamd from the offical repository.
 
 ### Rspamd Repository
-```
+```plain
 sudo apt install lsb-release wget gpg
 CODENAME=`lsb_release -c -s`
 sudo mkdir -p /etc/apt/keyrings

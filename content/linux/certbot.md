@@ -27,7 +27,7 @@ chmod 600 certbot-creds.ini
 ```
 
 ## Request your first wildcard certificate
-```
+```plain
 certbot certonly --dns-cloudflare --dns-cloudflare-credentials /path/to/certbot-creds.ini -d '*.your-domain.tld'
 ```
 

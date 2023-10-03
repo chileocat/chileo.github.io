@@ -11,7 +11,7 @@ Default vim settings for every of my servers.
 ## .vimrc
 Create a new `.vimrc` file and add this content.
 
-```
+```plain
 set mouse-=a
 syntax on
 autocmd ColorScheme janah highlight Normal ctermbg=235
@@ -63,7 +63,7 @@ set autoindent
 ## janah color scheme
 Create the correct folders in your user directory `~/.vim/colors/` and create the color scheme file `janah.vim`.
 {{< expand "janah.vim" >}}
-```
+```plain
 " vim: et sw=2 sts=2
 
 " Plugin:      https://github.com/mhinz/vim-janah
