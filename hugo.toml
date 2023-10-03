@@ -7,9 +7,10 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
 enableGitInfo = true
+pluralizeListTitles = false
 
 # Required if you want to render robots.txt template
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 [markup]
   [markup.goldmark.renderer]
@@ -34,7 +35,7 @@ enableRobotsTXT = true
   # (Optional, default none) Enable 'Edit page' links. Requires 'geekdocRepo' param
   # and the path must point to the parent directory of the 'content' folder.
   # You can also specify this parameter per page in front matter.
-  geekdocEditPath = "edit/main/content"
+  geekdocEditPath = "edit/main"
 
   # (Optional, default true) Enables search function with flexsearch.
   # Index is built on the fly and might slow down your website.
