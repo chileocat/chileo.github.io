@@ -10,7 +10,7 @@ Default vim settings for every of my servers.
 
 ## .vimrc
 Create a new `.vimrc` file and add this content.
-
+{{< expand ".vimrc" >}}
 ```plain
 set mouse-=a
 syntax on
@@ -59,6 +59,7 @@ set expandtab
 set number
 set autoindent
 ```
+{{< /expand >}}
 
 ## janah color scheme
 Create the correct folders in your user directory `~/.vim/colors/` and create the color scheme file `janah.vim`.

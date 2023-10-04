@@ -16,8 +16,7 @@ echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/rspamd.gpg] http://rspamd.com/
 echo "deb-src [arch=amd64 signed-by=/etc/apt/keyrings/rspamd.gpg] http://rspamd.com/apt-stable/ $CODENAME main" | sudo tee -a /etc/apt/sources.list.d/rspamd.list
 ```
 
-
-Update and install Rspamd
+## Update and install Rspamd
 ```
 apt update
 apt install rspamd
